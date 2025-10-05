@@ -1,150 +1,363 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cable UTP AMP Categoria 6 Chaqueta CMR 23AWG 6-1427200-4</title>
-    <meta name="description" content="Sitio web de ds3comunicaciones, líder en soluciones de redes y comunicaciones. Ofrecemos productos para WiFi y extensión de señal.">
-    <meta name="keywords" content="En Peru, ANTENA HYPERLINK, internet inalambrico,ANTENA PARA INTERNET,Antena Omnidireccional,Antena de panel, Antena 5.8 UAP-AC-EDU AccessPoint UAP-AC-EDU para interior de Doble banda 5GHz y 2.4 GHz , 802.11a/b/g/n/ac, MIMO3x3 ( 2,4 GHz ) 22dBm 450 Mbps , MIMO3x3 ( 5 GHz) 22dBm / 1300Mbps, tres Antenas de doble banda de 2,4 GHz : 3 dBi , 5 GHz : 3 dBi / 01 puerto Ethernet 10/100/1000 Mbps, PoE Pasivo 48v o 802.3at PoE+ compatibles, Incluye PoE 48V 0.5A Gige , software y kit para montaje, marca UBiQuiTi">
+    <meta name="description"
+        content="Sitio web de ds3comunicaciones, líder en soluciones de redes y comunicaciones. Ofrecemos productos para WiFi y extensión de señal.">
+    <meta name="keywords"
+        content="En Peru, ANTENA HYPERLINK, internet inalambrico,ANTENA PARA INTERNET,Antena Omnidireccional,Antena de panel, Antena 5.8 UAP-AC-EDU AccessPoint UAP-AC-EDU para interior de Doble banda 5GHz y 2.4 GHz , 802.11a/b/g/n/ac, MIMO3x3 ( 2,4 GHz ) 22dBm 450 Mbps , MIMO3x3 ( 5 GHz) 22dBm / 1300Mbps, tres Antenas de doble banda de 2,4 GHz : 3 dBi , 5 GHz : 3 dBi / 01 puerto Ethernet 10/100/1000 Mbps, PoE Pasivo 48v o 802.3at PoE+ compatibles, Incluye PoE 48V 0.5A Gige , software y kit para montaje, marca UBiQuiTi">
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 
     <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!--icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="./fotos/IconoDS3.ico" sizes="32x32">
-    <link rel="icon" href="./fotos/IconoDS3.ico" sizes="96x96">
+    <link rel="shortcut icon" href="../fotos/IconoDS3.ico" sizes="32x32">
+    <link rel="icon" href="../fotos/IconoDS3.ico" sizes="96x96">
 </head>
+
 <body>
-<!--nav con logo y search-->
+    <!--nav con logo y search-->
 
-<nav class="navbar bg-body-tertiary">
-    <div class="container-fluid d-flex" id="logo-y-datos"> 
-        <a class="navbar-brand" href="#"><img src="./fotos/Logo1DS3.jpg" alt="logo" width="100" height="50"></a>
-        <div class="nav-datos d-flex flex-row gap-2 mx-auto" id="datos"> 
-            <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span>  533-4339</p>
-            <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span>  994-428-965</p>
-            <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span>  996 533 223</p>
-            <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span>  937 514 867</p>
-            <p class="mb-0"><i class="bi bi-envelope-fill"></i> <span></span>  netperu100@hotmail.com</p>
-            <p class="mb-0"><i class="bi bi-geo-alt-fill"></i> <span></span> Lima, PERÚ</p>
-            <img src="./fotos/cisco-gif.gif" width="50" height="50" alt="">
-        </div>
-        
-   
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
-       
-    <!--nav con menu-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
-    <div class="container-fluid">
-   
-        <div class="ms-auto d-lg-none"> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid d-flex" id="logo-y-datos">
+
+            <div class="logo-group d-flex align-items-center">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false"
+                    aria-label="Toggle navigation" id="boton-menu">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <a class="navbar-brand" id="logo-link" href="#"><img src="../fotos/Logo1DS3.jpg" alt="logo" width="100"
+                        height="50"></a>
+                <img src="../fotos/cisco-gif.gif" id="Cisco-logo" alt="Cisco-logo" width="50" height="50"
+                    class="d-block d-md-block d-lg-none d-xl-none">
+            </div>
+            <!--Numeros y correo solo en desktop-->
+            <div class="nav-datos d-flex flex-row gap-2 mx-auto d-none d-md-none d-lg-block d-xl-block" id="datos">
+                <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 533-4339</p>
+                <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 994-428-965</p>
+                <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 996 533 223</p>
+                <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 937 514 867</p>
+                <p class="mb-0"><i class="bi bi-envelope-fill"></i> <span></span> netperu100@hotmail.com</p>
+                <p class="mb-0"><i class="bi bi-geo-alt-fill"></i> <span></span> Lima, PERÚ</p>
+                <img src="../fotos/cisco-gif.gif" width="50" height="50" alt="">
+            </div>
+
+            <button id="search-icon" class="search-icon" title="Buscar" aria-label="Buscar">
+                <i class="bi bi-search"></i>
+                <span class="visually-hidden">Buscar</span>
             </button>
-        </div>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">  
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/catalys_9200l.html"> 
-                        <img src="./fotos/switch catalyst-foto2.png" width="48" height="48" alt="Switch Catalyst"> Switch Catalyst
-                    </a>
-                </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="https://www.ds3comunicaciones.com/cisco/bussines_sg350.html">
-                            <img src="./fotos/Cisco Business.ico" width="48" height="48" alt="business"> Cisco Business
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_switch_industrial_b.html">
-                            <img src="./fotos/Switch Industrial.ico" width="48" height="48" alt="Switch Industrial"> Switch Industrial
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_access_point_b.html">
-                            <img src="./fotos/Aironet.ico" alt="Aironet"> Aironet
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_telefonos_b.html">
-                            <img src="./fotos/Télefono.ico" alt="Telefono"> Telefono
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_meraki_b.html">
-                            <img src="./fotos/mariakii.ico" width="48" height="48" alt="Meraki"> Meraki
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.ds3comunicaciones.com/trendnet/transceiver.html">
-                            <img src="./fotos/Transceiver.png" width="48" height="48" alt="Transceiver"> Transceiver
-                        </a>
-                    </li>
-                </ul>
+            <!--numeros y correo solo en responsive-->
+            <div class="nav-datos d-block d-md-block d-lg-none d-xl-none" id="datos">
+                <div id="telefonos-lista">
+                    <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 994-428-965</p>
+                    <p class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 996 533 223</p>
+                </div>
+                <div>
+                    <p class="mb-0"><i class="bi bi-envelope-fill"></i> <span></span> netperu100@hotmail.com</p>
+                </div>
             </div>
         </div>
     </nav>
+    <!--offcanvas-->
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+            <img src="../fotos/Logo1DS3.jpg" width="100" alt="logo">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+        <div class="offcanvas-body">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="../fotos/Cisco_logo.jpg" width="48" height="29" alt="Switch Catalyst"> Lista Completa
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="../fotos/access point cisco.jpg" width="48" height="48" alt=" Access Point"> Access
+                        Point
+                    </a>
+                </li>
 
-<!--nav con breadcrumbs-->
-<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-    <div class="container-fluid" id="navegacionconMigas">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="https://www.ds3comunicaciones.com/index.html" id="linkHome"><i class="bi bi-house-door-fill"></i></a></li>
-   
-    <li class="breadcrumb-item active" aria-current="page"><a href="https://www.ds3comunicaciones.com/AMP/index.html" id="linkAMP" >AMP</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page"
+                        href="https://www.ds3comunicaciones.com/cisco/bussines_sg350.html">
+                        <img src="../fotos/Cisco Business.ico" width="48" height="48" alt="business"> Switch Small
+                        Business
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/catalys_9200l.html">
+                        <img src="../fotos/switch catalyst-foto2.png" width="48" height="48" alt="Switch Catalyst">
+                        Switch Catalyst
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_meraki_b.html">
+                        <img src="../fotos/mariakii.ico" width="48" height="48" alt="Meraki"> Meraki
+                    </a>
+                </li>
 
-    <li class="breadcrumb-item active" aria-current="page"><a href="https://www.ds3comunicaciones.com/AMP/index.html#cablecat6" id="linkCables" >Cables de Red UTP Cat 6 AMP</a></li>
-    
-<li class="breadcrumb-item active" aria-current="page">6-1427200-4</li>
-  </ol>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_nexus_b.html">
+                        <img src="../fotos/Cisco nexus.jpg" width="48" height="48" alt="Nexus"> Cisco Nexus
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_router_b.html">
+                        <img src="../fotos/cisco router .jpg" width="48" height="48" alt="Routers"> Routers
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.ds3comunicaciones.com/cisco/precios_cisco_telefonos_b.html">
+                        <img src="../fotos/Télefono.ico" alt="Telefono"> Telefono
+                    </a>
+                </li>
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.ds3comunicaciones.com/trendnet/transceiver.html">
+                        <img src="../fotos/Transceiver.png" width="48" height="48" alt="Transceiver"> Transceiver
+                    </a>
+                </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://www.ds3comunicaciones.com/cisco/precios_cisco_switch_industrial_b.html">
+                        <img src="../fotos/Cisco_logo.jpg" width="48" height="29" alt="Arcceorios"> Accesorios
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://www.ds3comunicaciones.com/cisco/precios_cisco_switch_industrial_b.html">
+                        <img src="../fotos/Switch Industrial.ico" width="48" height="48" alt="Switch Industrial"> Switch
+                        Industrial
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://www.ds3comunicaciones.com/cisco/precios_cisco_access_point_b.html">
+                        <img src="../fotos/Aironet.ico" alt="Aironet"> Aironet
+                    </a>
+                </li>
+            </ul>
+            <!--opciones-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button id="menu-precios" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+       Lista de Precios
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+     <ul id="lista-marcas-menu">
+                            <li><a href="https://www.ds3comunicaciones.com/AMP/precios_amp.html" target="_blank"
+                                    rel="noopener">Lista de precios AMP</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/amphenol/precios_amphenol.html"
+                                    target="_blank" rel="noopener">Lista de precios Amphenol</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/andrew/precios_andrew.html" target="_blank"
+                                    rel="noopener">Lista de precios Andrew</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/apc/precios_apc.html" target="_blank"
+                                    rel="noopener">Lista de precios APC</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/cisco/precios_cisco.html" target="_blank"
+                                    rel="noopener">Lista de precios CISCO</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/dlink/precios_dlink.html" target="_blank"
+                                    rel="noopener">Lista de precios D-Link</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/dixon/precios_dixon.html" target="_blank"
+                                    rel="noopener">Lista de precios Dixon</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/Energit/precios_energit.html" target="_blank"
+                                    rel="noopener">Lista de precios Energit</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/FibreFab/precios_fibrefab.html"
+                                    target="_blank" rel="noopener">Lista de precios Fibra</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/hp/precios_hp.html" target="_blank"
+                                    rel="noopener">Lista de precios HP</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/mikrotik/precios_mikrotik.html"
+                                    target="_blank" rel="noopener">Lista de precios Mikrotik</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/nexxt_solutions/precios_nexxt_solutions.html"
+                                    target="_blank" rel="noopener">Lista de precios Nexxt Solutions</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/panduit/precios_panduit.html" target="_blank"
+                                    rel="noopener">Lista de precios Panduit</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/siemon/precios_siemon.html" target="_blank"
+                                    rel="noopener">Lista de precios Siemon</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/Teldor/precios_teldor.html" target="_blank"
+                                    rel="noopener">Lista de precios Teldor</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/trendnet/precios_trendnet.html"
+                                    target="_blank" rel="noopener">Lista de precios TRENDnet</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/ubiquiti/precios_ubiquiti.html"
+                                    target="_blank" rel="noopener">Lista de precios Ubiquiti</a></li>
+                        </ul>
+</div>
     </div>
-</nav>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Nuestras Marcas
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div id="marcas-menu">
+                        <a href="https://www.ds3comunicaciones.com/alfa/index.html"><img src="../fotos/ALFA_logo1.gif"
+                                alt="alfa" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/airlive/index.html"><img
+                                src="../fotos/AirLive-logo.gif" alt="AirLive-logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/andrew/index.html"><img
+                                src="../fotos/Andrew-Logo.jpg" alt="Andrew-Logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/AMP/index.html"><img src="../fotos/Amp-Logo.jpg"
+                                alt="Amp-Logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/amphenol/index.html"><img
+                                src="../fotos/amphenol_logo-100x21.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/belden/index.html"><img
+                                src="../fotos/Belden-Logo-93x15.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/cisco/index.html"><img src="../fotos/logo-cisco.gif"
+                                alt="cisco-gif" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/dahua/index.html"><img src="../fotos/dahua_logo.jpg"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/dlink/index.html"><img
+                                src="../fotos/D-Link_Logo-100x26.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/dixon/index.html"><img
+                                src="../fotos/dixon_logo-100x19.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/FibreFab/index.html"><img
+                                src="../fotos/logo_fibrefab.png" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/lanpro/index.html"><img
+                                src="../fotos/lanpro_logo.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/l-com/"><img src="../fotos/lcom_logo-100x23.jpg"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/mikrotik/index.html"><img
+                                src="../fotos/mikrotik_logo-100x24.png" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/panduit/index.html"><img
+                                src="../fotos/panduit_logo.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/satra/index.html"><img src="../fotos/satra.jfif"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/siemon/precios_siemon.html"><img
+                                src="../fotos/siemon_logo1.gif" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/tplink/"><img src="../fotos/tp-link_logo-100x13.jpg"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/trendnet/"><img
+                                src="../fotos/trendnet_logo-100x20.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/ubiquiti/index.html"><img
+                                src="../fotos/ubnt_logo-100x47.png" alt="logo" class="img-fluid"></a>
+        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Contacto
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" id="datos-para-menu">
+
+         <a href="tel: +51 01 5334339" class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 533-4339</p>
+                <a href="tel: +51 994428965" id="telefono-menu"><span></span> 994-428-965</a>
+                <br>
+                <br>
+                <a href="tel: +51 996 533 223" class="mb-0"><i class="bi bi-telephone-fill"></i><span></span> 996 533 223</p>
+                <a href="tel: +51 937514867" class="mb-0" id="telefono-menu-2"> 937 514 867</p>
+                <br>
+                <a href="mailto:netperu100@hotmail.com" class="mb-0" title="Enviar correo a netperu100@hotmail.com"><i class="bi bi-envelope-fill"></i> <span></span> netperu100@hotmail.com</a>
+                <p class="mb-0"><i class="bi bi-geo-alt-fill"></i> <span></span> Lima, PERÚ</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+    </div>
+
+
+
+    <!--nav con breadcrumbs-->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <div class="container-fluid" id="navegacionconMigas">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://www.ds3comunicaciones.com/index.html" id="linkHome" title="Inicio"><i
+                            class="bi bi-house-door-fill"></i></a></li>
+
+                <li class="breadcrumb-item active" aria-current="page"><a
+                        href="https://www.ds3comunicaciones.com/AMP/index.html" id="linkAMP">AMP</a></li>
+
+                <li class="breadcrumb-item active" aria-current="page"><a
+                        href="https://www.ds3comunicaciones.com/AMP/index.html#cablecat6" id="linkCables">Cables de Red
+                        UTP Cat 6 AMP</a></li>
+
+                <li class="breadcrumb-item active" aria-current="page">6-1427200-4</li>
+            </ol>
+        </div>
+    </nav>
 
     <div class="container-fluid" id="producto-y-marcas">
-        <div class="row"> 
+        <div class="row">
 
             <div class="col-lg-2 d-none d-lg-block">
                 <aside id="aside-izquierda">
                     <h4>Nuestras Marcas</h4>
                     <hr>
                     <div id="marcas">
-                        <a href="https://www.ds3comunicaciones.com/alfa/index.html"><img src="./fotos/ALFA_logo1.gif" alt="alfa" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/airlive/index.html"><img src="./fotos/AirLive-logo.gif" alt="AirLive-logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/andrew/index.html"><img src="./fotos/Andrew-Logo.jpg" alt="Andrew-Logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/AMP/index.html"><img src="./fotos/Amp-Logo.jpg" alt="Amp-Logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/amphenol/index.html"><img src="./fotos/amphenol_logo-100x21.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/belden/index.html"><img src="./fotos/Belden-Logo-93x15.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/cisco/index.html"><img src="./fotos/logo-cisco.gif" alt="cisco-gif" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/dahua/index.html"><img src="./fotos/dahua_logo.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/dlink/index.html"><img src="./fotos/D-Link_Logo-100x26.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/dixon/index.html"><img src="./fotos/dixon_logo-100x19.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/FibreFab/index.html"><img src="./fotos/logo_fibrefab.png" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/lanpro/index.html"><img src="./fotos/lanpro_logo.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/l-com/"><img src="./fotos/lcom_logo-100x23.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/mikrotik/index.html"><img src="./fotos/mikrotik_logo-100x24.png" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/panduit/index.html"><img src="./fotos/panduit_logo.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/satra/index.html"><img src="./fotos/satra.jfif" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/siemon/precios_siemon.html"><img src="./fotos/siemon_logo1.gif" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/tplink/"><img src="./fotos/tp-link_logo-100x13.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/trendnet/"><img src="./fotos/trendnet_logo-100x20.jpg" alt="logo" class="img-fluid"></a>
-                        <a href="https://www.ds3comunicaciones.com/ubiquiti/index.html"><img src="./fotos/ubnt_logo-100x47.png" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/alfa/index.html"><img src="../fotos/ALFA_logo1.gif"
+                                alt="alfa" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/airlive/index.html"><img
+                                src="../fotos/AirLive-logo.gif" alt="AirLive-logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/andrew/index.html"><img
+                                src="../fotos/Andrew-Logo.jpg" alt="Andrew-Logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/AMP/index.html"><img src="../fotos/Amp-Logo.jpg"
+                                alt="Amp-Logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/amphenol/index.html"><img
+                                src="../fotos/amphenol_logo-100x21.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/belden/index.html"><img
+                                src="../fotos/Belden-Logo-93x15.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/cisco/index.html"><img src="../fotos/logo-cisco.gif"
+                                alt="cisco-gif" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/dahua/index.html"><img src="../fotos/dahua_logo.jpg"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/dlink/index.html"><img
+                                src="../fotos/D-Link_Logo-100x26.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/dixon/index.html"><img
+                                src="../fotos/dixon_logo-100x19.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/FibreFab/index.html"><img
+                                src="../fotos/logo_fibrefab.png" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/lanpro/index.html"><img
+                                src="../fotos/lanpro_logo.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/l-com/"><img src="../fotos/lcom_logo-100x23.jpg"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/mikrotik/index.html"><img
+                                src="../fotos/mikrotik_logo-100x24.png" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/panduit/index.html"><img
+                                src="../fotos/panduit_logo.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/satra/index.html"><img src="../fotos/satra.jfif"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/siemon/precios_siemon.html"><img
+                                src="../fotos/siemon_logo1.gif" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/tplink/"><img src="../fotos/tp-link_logo-100x13.jpg"
+                                alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/trendnet/"><img
+                                src="../fotos/trendnet_logo-100x20.jpg" alt="logo" class="img-fluid"></a>
+                        <a href="https://www.ds3comunicaciones.com/ubiquiti/index.html"><img
+                                src="../fotos/ubnt_logo-100x47.png" alt="logo" class="img-fluid"></a>
                     </div>
                 </aside>
             </div>
 
 
             <div class="col-lg-8">
-                <div id="producto-y-especificaciones" class="mt-2"> 
+                <div id="producto-y-especificaciones" class="mt-2">
 
                     <div class="row">
                         <!-- Carousel + Miniaturas -->
@@ -153,40 +366,60 @@
                             <div id="carouselProducto" class="carousel slide" data-bs-interval="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="./fotos/cableUTP.jpg" class="d-block w-100 carousel-img" alt="Cable UTP Vista principal">
+                                        <img src="../fotos/cableUTP.jpg" class="d-block w-100 carousel-img"
+                                            alt="Cable UTP Vista principal">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="./fotos/cableUTP.jpg" class="d-block w-100 carousel-img" alt="Vista lateral">
+                                        <img src="../fotos/cableUTP.jpg" class="d-block w-100 carousel-img"
+                                            alt="Vista lateral">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="./fotos/cableUTP.jpg" class="d-block w-100 carousel-img" alt="Vista trasera">
+                                        <img src="../fotos/cableUTP.jpg" class="d-block w-100 carousel-img"
+                                            alt="Vista trasera">
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducto" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducto"
+                                    data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Anterior</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProducto" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProducto"
+                                    data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Siguiente</span>
                                 </button>
                                 <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="0" class="active" aria-label="Ir al slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="1" aria-label="Ir al slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="2" aria-label="Ir al slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="0"
+                                        class="active" aria-label="Ir al slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="1"
+                                        aria-label="Ir al slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselProducto" data-bs-slide-to="2"
+                                        aria-label="Ir al slide 3"></button>
                                 </div>
                             </div>
 
                             <!-- Miniaturas -->
                             <div class="row mt-3">
                                 <div class="col-4">
-                                    <img src="./fotos/cableUTP.jpg" class="img-fluid rounded" alt="Miniatura 1" onclick="cambiarSlide(0)" style="cursor: pointer; border: 2px solid transparent; transition: border 0.2s;" onmouseover="this.style.border='2px solid #007bff'" onmouseout="this.style.border='2px solid transparent'">
+                                    <img src="../fotos/cableUTP.jpg" class="img-fluid rounded" alt="Miniatura 1"
+                                        onclick="cambiarSlide(0)"
+                                        style="cursor: pointer; border: 2px solid transparent; transition: border 0.2s;"
+                                        onmouseover="this.style.border='2px solid #007bff'"
+                                        onmouseout="this.style.border='2px solid transparent'">
                                 </div>
                                 <div class="col-4">
-                                    <img src="./fotos/cableUTP.jpg" class="img-fluid rounded" alt="Miniatura 2" onclick="cambiarSlide(1)" style="cursor: pointer; border: 2px solid transparent; transition: border 0.2s;" onmouseover="this.style.border='2px solid #007bff'" onmouseout="this.style.border='2px solid transparent'">
+                                    <img src="../fotos/cableUTP.jpg" class="img-fluid rounded" alt="Miniatura 2"
+                                        onclick="cambiarSlide(1)"
+                                        style="cursor: pointer; border: 2px solid transparent; transition: border 0.2s;"
+                                        onmouseover="this.style.border='2px solid #007bff'"
+                                        onmouseout="this.style.border='2px solid transparent'">
                                 </div>
                                 <div class="col-4">
-                                    <img src="./fotos/cableUTP.jpg" class="img-fluid rounded" alt="Miniatura 3" onclick="cambiarSlide(2)" style="cursor: pointer; border: 2px solid transparent; transition: border 0.2s;" onmouseover="this.style.border='2px solid #007bff'" onmouseout="this.style.border='2px solid transparent'">
+                                    <img src="../fotos/cableUTP.jpg" class="img-fluid rounded" alt="Miniatura 3"
+                                        onclick="cambiarSlide(2)"
+                                        style="cursor: pointer; border: 2px solid transparent; transition: border 0.2s;"
+                                        onmouseover="this.style.border='2px solid #007bff'"
+                                        onmouseout="this.style.border='2px solid transparent'">
                                 </div>
                             </div>
                         </div>
@@ -196,28 +429,33 @@
                             <h5 class="text-center">Cable UTP AMP Categoria 6 Chaqueta CMR 23AWG 6-1427200-4</h5>
                             <div id="precio-y-compra">
                                 <h5>$187 (por rollo)</h5>
-                              
-                               <a class="btn btn-primary" href="https://www.ds3comunicaciones.com/pedido.html" role="button"><i class="bi bi-cart-fill"></i><span></span> Comprar ahora</a>
+
+                                <a class="btn btn-primary" href="https://www.ds3comunicaciones.com/pedido.html"
+                                    role="button"><i class="bi bi-cart-fill"></i><span></span> Comprar ahora</a>
                             </div>
 
                             <hr>
                             <div id="especificaciones">
                                 <h4>Especificaciones técnicas:</h4>
                                 <ul>
-                                 <li>Tipo de Cable Avanzado: UTP Categoría 6 </li> 
-                                   <li> 4 pares trenzados de 23 AWG en cobre sólido</li>
+                                    <li>Tipo de Cable Avanzado: UTP Categoría 6 </li>
+                                    <li> 4 pares trenzados de 23 AWG en cobre sólido</li>
                                     <li>Rendimiento Superior Verificado</li>
                                     <li>Garantiza cero interrupciones en Gigabit Ethernet (1000BASE-TX)</li>
-                                    <li>Velocidades de hasta 1 Gbps con márgenes significativos en atenuación y diafonía.</li>
+                                    <li>Velocidades de hasta 1 Gbps con márgenes significativos en atenuación y
+                                        diafonía.</li>
                                     <li>Aplicaciones Versátiles y Futuro-Proof</li>
-                                    <li>Soporta Ethernet 10/100/1000BASE-TX, Token Ring, ATM 155 Mbps, TP-PMD 100 Mbps, ISDN, video analógico/digital y VoIP</li>
-                                    <li>Cubierta PVC CMR (UL-listed) para entornos riser, con aislamiento de polietileno de alta calidad</li>
+                                    <li>Soporta Ethernet 10/100/1000BASE-TX, Token Ring, ATM 155 Mbps, TP-PMD 100 Mbps,
+                                        ISDN, video analógico/digital y VoIP</li>
+                                    <li>Cubierta PVC CMR (UL-listed) para entornos riser, con aislamiento de polietileno
+                                        de alta calidad</li>
                                     <li>Impedancia de 100 Ω ±15%</li>
                                     <li>Capacitancia mutua de 5.6 nF/100 m,</li>
                                     <li>Desfase de retardo máximo 45 ns y velocidad de propagación del 70%</li>
-                                    <li>Certificaciones ETL Verified para rendimiento, UL CMR (Archivo E138034) para seguridad contra fuego (ANSI/UL 1666, IEC 332-1)</li>
+                                    <li>Certificaciones ETL Verified para rendimiento, UL CMR (Archivo E138034) para
+                                        seguridad contra fuego (ANSI/UL 1666, IEC 332-1)</li>
                                     <li>Empaque Práctico y Ecológico</li>
-                                  
+
                                 </ul>
 
                             </div>
@@ -225,228 +463,278 @@
                             <div id="descarga">
                                 <h3>Descarga:</h3>
                                 <div id="enlaces">
-                                    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf" class="btn btn-outline-danger" role="button"><i class="bi bi-file-earmark-pdf-fill"></i><span></span> Ficha Técnica</a>
-                                    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf" class="btn btn-outline-primary" role="button"><i class="bi bi-book"></i></i><span></span> Manual</a>
-                                    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf" class="btn btn-outline-success" role="button"><i class="bi bi-file-text"></i><span></span> Especificaciones</a>
+                                    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf"
+                                        class="btn btn-outline-danger" role="button"><i
+                                            class="bi bi-file-earmark-pdf-fill"></i><span></span> Ficha Técnica</a>
+                                    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf"
+                                        class="btn btn-outline-primary" role="button"><i
+                                            class="bi bi-book"></i></i><span></span> Manual</a>
+                                    <a href="https://www.ds3comunicaciones.com/AMP/files/6-1427200-4-DS.pdf"
+                                        class="btn btn-outline-success" role="button"><i
+                                            class="bi bi-file-text"></i><span></span> Especificaciones</a>
                                 </div>
                             </div>
                             <div>
                                 <a role="button" class="btn btn-primary">Producto</a>
-                                <a role="button"  class="btn btn-secondary">Imagenes</a>
+                                <a role="button" class="btn btn-secondary">Imagenes</a>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
                 <div id="detalles">
-                            <details>
-                                <summary>Especificaciones Técnicas
-                                </summary>
-                                <div class="container text-center">
-                                     <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Voltage: 300 V AA o V CC
-                                        </div>
-                                        <div class="col"> 
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Velocidad Nominal Propagación: 70%
-                                        </div>
-                                    </div>
-
-                                  <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Temperatura de Operación -20° C a 60° C.
-                                        </div>
-                                        <div class="col"> 
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>emperatura de Almacenamiento -20° C a 80° C.
-                                        </div>
-                                    </div>
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Tipo: UTP Categoría 6, 4 pares trenzados, 23 AWG, cobre sólido.
-                                        </div>
-                                        <div class="col"> 
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Longitud: 1000 pies (305 m) sin empalmes, en carrete en caja.
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Rendimiento: Verificado independientemente hasta 600 MHz.
-                                        </div>
-                                        <div class="col">
-                                             <i style="color: #318199;" class="bi bi-check-lg"></i>Características adicionales: Capacitancia mutua 5.6 nF/100 m; impedancia 100 Ω ±15%; desfase de retardo 45 ns máx.; velocidad de propagación 70%.
-                                        </div>
-                                    </div>
-
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Número de parte: X-1427200-X de AMP NETCONNECT (variantes por color: 6-1427200-2 blanco, 6-1427200-4 gris, 6-1427200-6 azul).
-                                        </div>
-                                        <div class="col">
-                                             <i style="color: #318199;" class="bi bi-check-lg"></i>Aplicaciones: Soporte para Ethernet Gigabit (1000BASE-TX), 10/100BASE-TX, Token Ring, ATM 155 Mbps, TP-PMD 100 Mbps, ISDN, video analógico/digital, VoIP.
-                                        </div>
-                                    </div>
+                    <details>
+                        <summary>Especificaciones Técnicas
+                        </summary>
+                        <div class="container text-center">
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Voltage: 300 V AA o V CC
                                 </div>
-                            </details>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Velocidad Nominal Propagación:
+                                    70%
+                                </div>
                             </div>
 
-                             <div id="detalles">
-                            <details>
-                                <summary>
-                                    Protocolos Soportados
-                                </summary>
-                                <div class="container text-center">
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                             <i style="color: #318199;" class="bi bi-check-lg"></i>Ethernet Gigabit (1000BASE-TX), 10/100BASE-TX, Token Ring, ATM (155 Mbps), TP-PMD (100 Mbps), ISDN, VoIP, video analógico y digital.
-                                        </div>
-                                    </div>
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Temperatura de Operación -20°
+                                    C a 60° C.
                                 </div>
-                            </details>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>emperatura de Almacenamiento
+                                    -20° C a 80° C.
+                                </div>
+                            </div>
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Tipo: UTP Categoría 6, 4 pares
+                                    trenzados, 23 AWG, cobre sólido.
+                                </div>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Longitud: 1000 pies (305 m)
+                                    sin empalmes, en carrete en caja.
+                                </div>
                             </div>
 
-                             <div id="detalles">
-                            <details>
-                                <summary>
-                                  Cumplimiento de Normas
-                                </summary>
-                                <div class="container text-center">
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>TIA/EIA-568-B.2-1 (Categoría 6).
-                                        </div>
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>ISO/IEC 11801 (Clase E).
-                                        </div>
-                                    </div>
-
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Inflamabilidad: NEC Artículo 800, NFPA 70; CMR (ANSI/UL 1666, IEC 332-1).
-                                        </div>
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Verificación: Independiente por laboratorios acreditados (ETL Verified).
-                                        </div>
-
-                                    </div>
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Rendimiento: Verificado
+                                    independientemente hasta 600 MHz.
                                 </div>
-                            </details>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Características adicionales:
+                                    Capacitancia mutua 5.6 nF/100 m; impedancia 100 Ω ±15%; desfase de retardo 45 ns
+                                    máx.; velocidad de propagación 70%.
+                                </div>
                             </div>
 
-                        <div id="detalles">
-                            <details>
-                                <summary>
-                                    Certificaciones y Ambiente
-                                </summary>
-                                <div class="container text-center">
-                                    <div class="row" id="detalles-col">
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Certificaciones: UL CMR (Archivo E138034), ETL Verified para rendimiento.
-                                        </div>
-                                        <div class="col">
-                                            <i style="color: #318199;" class="bi bi-check-lg"></i>Ambiente: Instalación interior, cubierta PVC para riser; temperatura operación -20°C a 60°C; cumple con requisitos de bajo humo y propagación de fuego reducida.
-                                        </div>
-                                    </div>
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Número de parte: X-1427200-X
+                                    de AMP NETCONNECT (variantes por color: 6-1427200-2 blanco, 6-1427200-4 gris,
+                                    6-1427200-6 azul).
                                 </div>
-                            </details>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Aplicaciones: Soporte para
+                                    Ethernet Gigabit (1000BASE-TX), 10/100BASE-TX, Token Ring, ATM 155 Mbps, TP-PMD 100
+                                    Mbps, ISDN, video analógico/digital, VoIP.
+                                </div>
                             </div>
+                        </div>
+                    </details>
+                </div>
+
+                <div id="detalles">
+                    <details>
+                        <summary>
+                            Protocolos Soportados
+                        </summary>
+                        <div class="container text-center">
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Ethernet Gigabit
+                                    (1000BASE-TX), 10/100BASE-TX, Token Ring, ATM (155 Mbps), TP-PMD (100 Mbps), ISDN,
+                                    VoIP, video analógico y digital.
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+
+                <div id="detalles">
+                    <details>
+                        <summary>
+                            Cumplimiento de Normas
+                        </summary>
+                        <div class="container text-center">
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>TIA/EIA-568-B.2-1 (Categoría
+                                    6).
+                                </div>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>ISO/IEC 11801 (Clase E).
+                                </div>
+                            </div>
+
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Inflamabilidad: NEC Artículo
+                                    800, NFPA 70; CMR (ANSI/UL 1666, IEC 332-1).
+                                </div>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Verificación: Independiente
+                                    por laboratorios acreditados (ETL Verified).
+                                </div>
+
+                            </div>
+                        </div>
+                    </details>
+                </div>
+
+                <div id="detalles">
+                    <details>
+                        <summary>
+                            Certificaciones y Ambiente
+                        </summary>
+                        <div class="container text-center">
+                            <div class="row" id="detalles-col">
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Certificaciones: UL CMR
+                                    (Archivo E138034), ETL Verified para rendimiento.
+                                </div>
+                                <div class="col">
+                                    <i style="color: #318199;" class="bi bi-check-lg"></i>Ambiente: Instalación
+                                    interior, cubierta PVC para riser; temperatura operación -20°C a 60°C; cumple con
+                                    requisitos de bajo humo y propagación de fuego reducida.
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                </div>
             </div>
 
             <!-- Aside Derecho  -->
             <div class="col-lg-2 d-none d-lg-block">
-               <aside id="aside-derecha">
+                <aside id="aside-derecha">
                     <div class="bg-white">
                         <h3>Listas de Precios</h3>
                         <ul>
-                            <li><a href="https://www.ds3comunicaciones.com/AMP/precios_amp.html" target="_blank" rel="noopener">Lista de precios AMP</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/amphenol/precios_amphenol.html" target="_blank" rel="noopener">Lista de precios Amphenol</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/andrew/precios_andrew.html" target="_blank" rel="noopener">Lista de precios Andrew</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/apc/precios_apc.html" target="_blank" rel="noopener">Lista de precios APC</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/cisco/precios_cisco.html" target="_blank" rel="noopener">Lista de precios CISCO</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/dlink/precios_dlink.html" target="_blank" rel="noopener">Lista de precios D-Link</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/dixon/precios_dixon.html" target="_blank" rel="noopener">Lista de precios Dixon</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/Energit/precios_energit.html" target="_blank" rel="noopener">Lista de precios Energit</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/FibreFab/precios_fibrefab.html" target="_blank" rel="noopener">Lista de precios Fibra</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/hp/precios_hp.html" target="_blank" rel="noopener">Lista de precios HP</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/mikrotik/precios_mikrotik.html" target="_blank" rel="noopener">Lista de precios Mikrotik</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/nexxt_solutions/precios_nexxt_solutions.html" target="_blank" rel="noopener">Lista de precios Nexxt Solutions</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/panduit/precios_panduit.html" target="_blank" rel="noopener">Lista de precios Panduit</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/siemon/precios_siemon.html" target="_blank" rel="noopener">Lista de precios Siemon</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/Teldor/precios_teldor.html" target="_blank" rel="noopener">Lista de precios Teldor</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/trendnet/precios_trendnet.html" target="_blank" rel="noopener">Lista de precios TRENDnet</a></li>
-                            <li><a href="https://www.ds3comunicaciones.com/ubiquiti/precios_ubiquiti.html" target="_blank" rel="noopener">Lista de precios Ubiquiti</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/AMP/precios_amp.html" target="_blank"
+                                    rel="noopener">Lista de precios AMP</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/amphenol/precios_amphenol.html"
+                                    target="_blank" rel="noopener">Lista de precios Amphenol</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/andrew/precios_andrew.html" target="_blank"
+                                    rel="noopener">Lista de precios Andrew</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/apc/precios_apc.html" target="_blank"
+                                    rel="noopener">Lista de precios APC</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/cisco/precios_cisco.html" target="_blank"
+                                    rel="noopener">Lista de precios CISCO</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/dlink/precios_dlink.html" target="_blank"
+                                    rel="noopener">Lista de precios D-Link</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/dixon/precios_dixon.html" target="_blank"
+                                    rel="noopener">Lista de precios Dixon</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/Energit/precios_energit.html" target="_blank"
+                                    rel="noopener">Lista de precios Energit</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/FibreFab/precios_fibrefab.html"
+                                    target="_blank" rel="noopener">Lista de precios Fibra</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/hp/precios_hp.html" target="_blank"
+                                    rel="noopener">Lista de precios HP</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/mikrotik/precios_mikrotik.html"
+                                    target="_blank" rel="noopener">Lista de precios Mikrotik</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/nexxt_solutions/precios_nexxt_solutions.html"
+                                    target="_blank" rel="noopener">Lista de precios Nexxt Solutions</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/panduit/precios_panduit.html" target="_blank"
+                                    rel="noopener">Lista de precios Panduit</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/siemon/precios_siemon.html" target="_blank"
+                                    rel="noopener">Lista de precios Siemon</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/Teldor/precios_teldor.html" target="_blank"
+                                    rel="noopener">Lista de precios Teldor</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/trendnet/precios_trendnet.html"
+                                    target="_blank" rel="noopener">Lista de precios TRENDnet</a></li>
+                            <li><a href="https://www.ds3comunicaciones.com/ubiquiti/precios_ubiquiti.html"
+                                    target="_blank" rel="noopener">Lista de precios Ubiquiti</a></li>
                         </ul>
                     </div>
                 </aside>
             </div>
-        </div> 
+        </div>
     </div>
-<div class="Otros-productos container-fluid" id="Otros-Productos">
+    <div class="Otros-productos container-fluid" id="Otros-Productos">
 
-    <h4>También Disponible: Cables de Red UTP Cat 6 AMP en Stock</h4>
+        <h4>También Disponible: Cables de Red UTP Cat 6 AMP en Stock</h4>
 
-     <div class="OtrosProductos-1">
-                <div class="OtrosProductos-card-1">
-                    <img src="./fotos/cable 1859345-2.jpg" alt="cable 1859345-2">
-                    <h2>1859345-2</h2>
-                    <p>
-                        Cable UTP AMP Categoria 6 Chaqueta LSZH
-                    </p>
-                    <a href="https://www.ds3comunicaciones.com/AMP/1859345-2.html" target="_blank" rel="noopener">Ver Producto</a>
-                </div>
-
-                <div class="OtrosProductos-card-2">
-                    <img src="./fotos/1427254-4.jfif" alt="1427254-4">
-                    <h2>1427254-4</h2>
-                    <p>Cable UTP AMP Categoria 6 Chaqueta CM</p>
-                    <a href="https://www.ds3comunicaciones.com/AMP/1427254-4.html" target="_blank" rel="noopener">Ver Producto</a>
-                </div>
-
-                <div class="OtrosProductos-card-3">
-                    <img src="./fotos/cable 219585-2_front.jpg" alt="219585-2">
-                    <h2>219585-2</h2>
-                    <p>219585-2</p>
-                    <br>
-                    <a href="https://www.ds3comunicaciones.com/AMP/219585-2.html">Ver Producto</a>
-                </div>
+        <div class="OtrosProductos-1">
+            <div class="OtrosProductos-card-1">
+                <img src="../fotos/cable 1859345-2.jpg" alt="cable 1859345-2">
+                <h2>1859345-2</h2>
+                <p>
+                    Cable UTP AMP Categoria 6 Chaqueta LSZH
+                </p>
+                <a href="https://www.ds3comunicaciones.com/AMP/1859345-2.html" target="_blank" rel="noopener">Ver
+                    Producto</a>
             </div>
-    
 
-             <div class="OtrosProductos-2">
-                <div class="OtrosProductos-card-4">
-                    <img src="./fotos/cable 1859345-2.jpg" alt="cable 1859345-2">
-                    <h2>1859218-2</h2>
-                    <p>
-                        Cable UTP AMP Categoria 6A Apantallado Chaqueta LSZH
-                    </p>
-                    <a href="https://www.ds3comunicaciones.com/AMP/1859218-2.html" target="_blank" rel="noopener">Ver Producto</a>
-                </div>
-
-                <div class="OtrosProductos-card-5">
-                    <img src="./fotos/Caja.jpg" alt="1859381-2">
-                    <h2>1859381-2</h2>
-                    <p>1859381-2</p>
-                    <br>
-                    <a href="https://www.ds3comunicaciones.com/AMP/1859381-2.html" target="_blank" rel="noopener">Ver Producto</a>
-                </div>
-
-              
+            <div class="OtrosProductos-card-2">
+                <img src="../fotos/1427254-4.jfif" alt="1427254-4">
+                <h2>1427254-4</h2>
+                <p>Cable UTP AMP Categoria 6 Chaqueta CM</p>
+                <a href="https://www.ds3comunicaciones.com/AMP/1427254-4.html" target="_blank" rel="noopener">Ver
+                    Producto</a>
             </div>
-</div>
-<footer>
+
+            <div class="OtrosProductos-card-3">
+                <img src="../fotos/cable 219585-2_front.jpg" alt="219585-2">
+                <h2>219585-2</h2>
+                <p>219585-2</p>
+                <br>
+                <a href="https://www.ds3comunicaciones.com/AMP/219585-2.html">Ver Producto</a>
+            </div>
+        </div>
+
+
+        <div class="OtrosProductos-2">
+            <div class="OtrosProductos-card-4">
+                <img src="../fotos/cable 1859345-2.jpg" alt="cable 1859345-2">
+                <h2>1859218-2</h2>
+                <p>
+                    Cable UTP AMP Categoria 6A Apantallado Chaqueta LSZH
+                </p>
+                <a href="https://www.ds3comunicaciones.com/AMP/1859218-2.html" target="_blank" rel="noopener">Ver
+                    Producto</a>
+            </div>
+
+            <div class="OtrosProductos-card-5">
+                <img src="../fotos/Caja.jpg" alt="1859381-2">
+                <h2>1859381-2</h2>
+                <p>1859381-2</p>
+                <br>
+                <a href="https://www.ds3comunicaciones.com/AMP/1859381-2.html" target="_blank" rel="noopener">Ver
+                    Producto</a>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
         <div class="footer-container">
 
             <div class="footer-1">
-                <img src="./fotos/Logo1DS3.jpg" alt="logo">
+                <img src="../fotos/Logo1DS3.jpg" alt="logo">
                 <h4>Redes Sociales</h4>
                 <div class="redes-sociales">
-                    <a href="#" target="_blank" rel="noopener" style="text-decoration: none;">
-                        <i class="bi bi-facebook" style="color: #000000" id="facebook"></i></a>
-                    <a href="https://wa.me/994428965?text=Hola nesecito ayuda" target="_blank" rel="noopener"   style="text-decoration: none;"><i class="bi bi-whatsapp" style="color: #000000;" id="wsp"></i></a> 
+                    <a href="#" target="_blank" rel="noopener" title="Facebook" class="facebook-link">
+                        <i class="bi bi-facebook"></i></a>
+                    <a href="https://wa.me/994428965?text=Hola nesecito ayuda" target="_blank" rel="noopener" title="Contactar por WhatsApp" class="whatsapp-link">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
                 </div>
                 <div>
                     <h5>Correo</h5>
-                    <a href="mailto:netperu100@hotmail.com"><i class="bi bi-envelope-fill" id="correo"></i><span></span>  netperu100@hotmail.com</a>
+                    <a href="mailto:netperu100@hotmail.com"><i class="bi bi-envelope-fill"></i><span></span>
+                        netperu100@hotmail.com</a>
                 </div>
             </div>
 
@@ -465,17 +753,19 @@
                     <a href="https://www.ds3comunicaciones.com/soporte.html">Soporte Técnico</a>
                     <br>
                     <a href="#">Acerca de Nosotros</a>
-                    
+
                 </div>
             </div>
 
-             <div class="footer-4">
+            <div class="footer-4">
                 <h3>Contacto</h3>
                 <div class="celulares">
                     <h5 id="tel">Celular:</h5>
-                    <a href="tel: +51 994428965"><i class="bi bi-telephone-fill" style="color: #000000;" id="telefono"></i><span></span>  994 428 965</a>
+                    <a href="tel: +51 994428965"><i class="bi bi-telephone-fill"
+                            style="color: #000000;"></i><span></span> 994 428 965</a>
                     <br>
-                    <a href="tel: +51 996533223"><i class="bi bi-telephone-fill" style="color: #000000;" id="telefono2"></i></i><span></span>  996 533 223</a>
+                    <a href="tel: +51 996533223"><i class="bi bi-telephone-fill"
+                            style="color: #000000;"></i></i><span></span> 996 533 223</a>
                 </div>
 
                 <div class="horario">
@@ -490,17 +780,31 @@
         <hr>
         <p id="ultimoParrafo">© 2023 DS3 Comunicaciones. Todos los derechos reservados.</p>
     </footer>
-<!--bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
-  <!-- funcion para la miniatura -->
-  <script>
-    function cambiarSlide(index) {
-      const carousel = new bootstrap.Carousel(document.getElementById('carouselProducto'), {
-        interval: false  
-      });
-      carousel.to(index);  
-    }
-  </script>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- funcion para la miniatura -->
+    <script>
+        function cambiarSlide(index) {
+            const carousel = new bootstrap.Carousel(document.getElementById('carouselProducto'), {
+                interval: false
+            });
+            carousel.to(index);
+        }
+    </script>
+
+    <script>
+        const searchIcon = document.getElementById('search-icon');
+
+        searchIcon.addEventListener('click', function () {
+            const query = prompt('Buscar:'); // Solicita al usuario un término de búsqueda
+            if (query) {
+                window.location.href = `https://www.ds3comunicaciones.com/buscar.html?q=${encodeURIComponent(query)}`;
+            }
+        });
+    </script>
 </body>
+
 </html>
